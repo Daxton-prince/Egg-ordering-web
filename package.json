@@ -1,0 +1,14 @@
+{
+  "name": "egg-shop",
+  "version": "1.0.0",
+  "description": "Simple egg shop with notifications",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.4"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}

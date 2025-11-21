@@ -1,0 +1,10 @@
+egg-shop/
+├── public/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+├── api/
+│   ├── order.js
+│   └── send-notifications.js
+├── package.json
+└── vercel.json
