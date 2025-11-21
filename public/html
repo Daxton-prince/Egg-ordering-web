@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Eggs Wholesale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🥚 FRESH YORK</h1>
+            <p>Order fresh eggs delivered to your location</p>
+    <P>CALL:0724 766 164</P>
+    <marquee id="slider" direction="left" scroll amount="2s">
+      
+    <h4>Located at Murang'a Town Manyeki Road Opposite U-tech Killimall Agent shop
+    </h4>
+    </marquee>
+
+        </header>
+
+        <div class="order-form">
+            <h2>Place Your Order</h2>
+            <form id="orderForm">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Active No to receive a call"  required>
+                </div>
+
+                <div class="form-group">
+                    <label for="eggs">Number of Trays *</label>
+                    <select id="eggs" name="eggs" required>
+                        <option value="">Select quantity</option>
+                        <option value="30">1 Tray - ksh.390</option>
+                        <option value="60">2 Tray - ksh.780</option>
+                        <option value="90">3 Tray- ksh.1170</option>
+                        <option value="120">4 Tray - ksh.1560</option>
+                        <option value="custom">Custom Order</option>
+                    </select>
+                </div>
+
+                <div class="form-group" id="customQuantity" style="display: none;">
+                    <label for="customEggs">Custom Quantity</label>
+                    <input type="number" id="customEggs" name="customEggs" placeholder="Enter number of Trays">
+                </div>
+
+                <div class="form-group">
+                    <label for="location">Delivery Location * (Specific shop name & Town)</label>
+                    <textarea id="location" name="location" rows="3" required placeholder="eg.Day To Day Shop , Ngurunga"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Place Order</button>
+            </form>
+
+            <div id="message" style="display: none;"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
