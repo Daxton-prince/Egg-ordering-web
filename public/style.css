@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #4302f7;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    background: rgb(6, 1, 49);
+    padding: 20px;
+    border-radius: 10px;
+    
+    box-shadow: 0 2px 5px rgba(4, 77, 236, 0.973);
+}
+
+header h1 {
+    color: #b5f702;
+    margin-bottom: 10px;
+}
+
+.order-form {
+    background: rgb(1, 2, 44);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.order-form h2 {
+    margin-bottom: 20px;
+    color: #f0f2f5;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #cecece;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 17px;
+    background: #03095c;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    color: #ffffff;
+    font-weight: bold;
+ 
+    border-color: #3498db;
+}
+.form-group input,
+.form-group select
+{
+    background: #03095c;
+    color:#d4edda;
+}
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background: #2802fc;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    border-radius: 5px;
+   
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background: #03095c;
+}
+
+.submit-btn:disabled {
+    background: #95a5a6;
+    cursor: not-allowed;
+}
+
+#message {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.success {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.error {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+h4{
+    color:goldenrod;
+}
+p{font-size: large;
+    color:aqua;
+
+font-weight: bold;}
